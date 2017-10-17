@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>exactaudiocopy</id>
+    <version>1.3</version>
+    <packageSourceUrl>https://github.com/delthas/chocolatey-packages/tree/master/exactaudiocopy</packageSourceUrl>
+    <owners>delthas</owners>
+    <title>Exact Audio Copy</title>
+    <authors>Andre Wiethoff</authors>
+    <projectUrl>http://www.exactaudiocopy.de</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/delthas/chocolatey-packages/master/exactaudiocopy/icon.png</iconUrl>
+    <docsUrl>http://www.exactaudiocopy.de/en/index.php/support/documentation/</docsUrl>
+    <mailingListUrl>https://groups.yahoo.com/neo/groups/EAC/info</mailingListUrl>
+    <tags>exactaudiocopy music audio grabber CD EAC</tags>
+    <summary>Exact Audio Copy is a so called audio grabber for audio CDs using standard CD and DVD-ROM drives.</summary>
+    <description>
+	Exact Audio Copy is a so called audio grabber for audio CDs using standard CD and DVD-ROM drives. The main differences between EAC and most other audio grabbers are :
+	- It is free (for non-commercial purposes)
+	- It works with a technology, which reads audio CDs almost perfectly. If there are any errors that can’t be corrected, it will tell you on which time position the (possible) distortion occurred, so you could easily control it with e.g. the media player
+	With other audio grabbers you usually need to listen to every grabbed wave because they only do jitter correction. Scratched CDs read on CD-ROM drives often produce distortions. But listening to every extracted audio track is a waste of time. Exact Audio Copy conquer these problems by making use of several technologies like multi-reading with verify and AccurateRip.
+	</description>  
+
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

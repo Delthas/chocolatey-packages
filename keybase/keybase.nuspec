@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>keybase</id>
+    <version>1.0.33.1093</version>
+    <packageSourceUrl>https://github.com/delthas/chocolatey-packages/tree/master/keybase</packageSourceUrl>
+    <owners>delthas</owners>
+    <title>Keybase</title>
+    <authors>Keybase</authors>
+    <projectUrl>https://keybase.io/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/delthas/chocolatey-packages/master/keybase/icon.png</iconUrl>
+    <copyright>2017 Keybase</copyright>
+    <licenseUrl>https://github.com/keybase/client/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/keybase/client</projectSourceUrl>
+    <docsUrl>https://keybase.io/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/keybase/client/issues</bugTrackerUrl>
+    <tags>keybase SPACE_SEPARATED</tags>
+    <summary>Keybase is a new and free security app for mobile phones and computers. For the geeks among us: it's open source and powered by public-key cryptography.</summary>
+    <description>
+	Keybase is a new and free security app for mobile phones and computers. For the geeks among us: it's open source and powered by public-key cryptography.
+
+	Keybase is for anyone. Imagine a Slack for the whole world, except end-to-end encrypted across all your devices. Or a Team Dropbox where the server can't leak your files or be hacked.
+	</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
